@@ -3,9 +3,9 @@ from setuptools import setup
 with open("README.md", "r", encoding="utf-8") as f:
     long_description = f.read()
 
-## edit below variables as per your requirements -
-REPO_NAME = "Movie-Recommender-System-Using-Machine-Learning"
-AUTHOR_USER_NAME = "entbappy"
+# edit below variables as per your requirements -
+REPO_NAME = "Movie_recommendation_machine_learning"
+AUTHOR_USER_NAME = "JaganRaja"
 SRC_REPO = "src"
 LIST_OF_REQUIREMENTS = ['streamlit']
 
@@ -18,7 +18,7 @@ setup(
     long_description=long_description,
     long_description_content_type="text/markdown",
     url=f"https://github.com/{AUTHOR_USER_NAME}/{REPO_NAME}",
-    author_email="entbappy73@gmail.com",
+    author_email="jaganraja479@gmail.com",
     packages=[SRC_REPO],
     license="MIT",
     python_requires=">=3.7",
