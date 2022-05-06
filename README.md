@@ -11,8 +11,7 @@ The purpose of a recommendation system basically is to search for content that w
 This is a streamlit web application that can recommend various kinds of similar movies based on an user interest.
 here is a demo,
 
-* [Click here to run it live on server](https://movie-recommeder-system.herokuapp.com/)
-
+- [Click here to run it live on server](https://movie-recommeder-system.herokuapp.com/)
 
 # Demo:
 
@@ -22,14 +21,12 @@ here is a demo,
 
 <img src="demo/3.png" alt="workflow" width="70%">
 
-
 # Dataset has been used:
 
-* [Dataset link](https://www.kaggle.com/tmdb/tmdb-movie-metadata?select=tmdb_5000_movies.csv)
-
-
+- [Dataset link](https://www.kaggle.com/tmdb/tmdb-movie-metadata?select=tmdb_5000_movies.csv)
 
 # How to run?
+
 ### STEPS:
 
 Clone the repository
@@ -37,6 +34,7 @@ Clone the repository
 ```bash
 https://github.com/entbappy/Movie-Recommender-System-Using-Machine-Learning.git
 ```
+
 ### STEP 01- Create a conda environment after opening the repository
 
 ```bash
@@ -47,12 +45,11 @@ conda create -n movie python=3.7.10 -y
 conda activate movie
 ```
 
-
 ### STEP 02- install the requirements
+
 ```bash
 pip install -r requirements.txt
 ```
-
 
 ```bash
 #run this file to generate the models
@@ -61,16 +58,7 @@ Movie Recommender System Data Analysis.ipynb
 ```
 
 Now run,
+
 ```bash
 streamlit run app.py
 ```
-
-
-```bash
-Author: Bappy Ahmed
-Data Scientist
-Email: entbappy73@gmail.com
-
-```
-
-
